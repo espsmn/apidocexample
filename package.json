@@ -1,0 +1,24 @@
+{
+  "name": "apidocexample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "doc": "./node_modules/.bin/apidoc -f \"routes/.*\\.js$\" -i ./  -o apidoc/"
+  },
+  "dependencies": {
+    "apidoc": "^0.17.7",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  },
+  "apidoc": {
+    "title": "Tasks API",
+    "url": "http://localhost:1337",
+    "sampleUrl": "http://localhost:1337"
+  }
+}

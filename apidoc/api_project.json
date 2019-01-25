@@ -1,0 +1,1 @@
+{  "title": "Tasks API",  "url": "http://localhost:1337",  "sampleUrl": "http://localhost:1337",  "name": "apidocexample",  "version": "0.0.0",  "description": "",  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2019-01-25T04:04:09.070Z",    "url": "http://apidocjs.com",    "version": "0.17.7"  }}
