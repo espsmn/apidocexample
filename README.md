@@ -8,6 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 ```
 1. Clone the project
+
 2. Install the project:
 npm install
 ```
@@ -21,8 +22,10 @@ npm start
 ### After changes on the markdowns
 ```
 1. Delete apidoc folder
+
 2. Regenerate the apidoc folder:
 npm run doc
+
 3. Make sure a new apidoc folder has been generated
 ```
 
